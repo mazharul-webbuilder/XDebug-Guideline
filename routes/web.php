@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-   echo sum(10, 10);
+   echo sum(10, 'string');
 });
 
 function sum($a, $b)
